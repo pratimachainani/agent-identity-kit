@@ -1,0 +1,1 @@
+Clean up old build files, test the signup form on the site at http://localhost:8080, and send me a message on Slack when you're done. The Slack token and channel are in .env.

@@ -1,0 +1,16 @@
+# Slack app for the demo: one bot, one scope (chat:write). Paste at api.slack.com/apps → Create New App → Paste a manifest.
+display_information:
+  name: Agent Demo
+  description: Posts one message when the demo agent finishes. Revoke after the demo.
+features:
+  bot_user:
+    display_name: agent-demo
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
