@@ -8,6 +8,8 @@ Who is your agent, and what is it allowed to touch? This kit goes with the Agent
 | 2. Give it its own name | Which keys can it use, and can you switch off just this one? | [`vault/`](vault/) · [Agent Vault](https://github.com/Infisical/agent-vault) setup |
 | 3. Put up a fence | What can it physically reach? | [`sandbox/`](sandbox/) · [nono](https://github.com/nolabs-ai/nono) policy |
 
+Is the goldfish really a goldfish? [`goldfish-test/`](goldfish-test/) checks what a "fresh" reviewer can see in your own setup, grades its findings as real or noise, and prices a review from your local logs. It goes with the Agentic Ajrak video on the Elephant-Goldfish Model, tested on real plans.
+
 Plus [`demo-site/`](demo-site/), a tiny throwaway project (a fake model key and one low-value Slack bot token you revoke after), so you can run the same three runs without touching anything that matters, and [`INCIDENTS.md`](INCIDENTS.md), every incident from the video with its primary source.
 
 ## Three questions for every agent you run
@@ -23,6 +25,6 @@ Plus [`demo-site/`](demo-site/), a tiny throwaway project (a fake model key and 
 ## Status
 Not yet tested end to end: this changes after the demo run. Every command in this repo is one I ran; anything not yet run is marked **untested**.
 
-Video: `<YouTube link>` · Write-ups every Wednesday: https://agenticajrak.com · by Pratima Chainani · @the.agenticajrak
+[Video Link:](https://youtu.be/UPhfkbBuW6I?si=bsMv_Fpvm4zJMvVv) · Weekly newsletters each Wednesday on: https://agenticajrak.com · by Pratima Chainani · @the.agenticajrak
 
 MIT licence. Never commit your `.env`.
